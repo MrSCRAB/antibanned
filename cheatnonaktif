@@ -1,0 +1,8 @@
+hijau=`echo -e "\e[32;1m"`
+ungu=`echo -e "\e[35;1m"`
+putih=`echo -e " \e[37;1m"`
+echo ""
+echo $putih"===>$hijau CHEAT NONAKTIF$putih<==="
+echo ""
+read -p "$ungu""Tekan [Enter] Untuk Kembali$putih"
+exit
