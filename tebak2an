@@ -1,0 +1,34 @@
+#!/system/bin/sh
+
+while :
+do
+clear
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "JAWAB PERTANYAAN INI"
+echo ""
+echo "Ayam atau telur, mana yang duluan ada?"
+echo ""
+read -p "Jawab : " jawab
+if [ $jawab = ayam ]
+then
+bash menu
+exit 0
+elif [ $jawab = telur ]
+then
+bash menu
+exit 0
+else
+echo ""
+read -p "Jawaban Salah 😝"
+fi
+done
