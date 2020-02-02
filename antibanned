@@ -6,7 +6,7 @@ merah=`echo -e "\e[31;1m"`
 kuning=`echo -e "\e[33;1m"`
 ungu=`echo -e "\e[35;1m"`
 putih=`echo -e " \e[37;1m"`
-while :
+while
 do
 clear
 echo ""
