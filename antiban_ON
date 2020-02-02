@@ -1,4 +1,0 @@
-iptables -t nat -A OUTPUT -p tcp -m multiport --dport 22,843,3013,5692,7101,8003,8101,8107,8080 -j REDIRECT --to-port 0
-iptables -t nat -A OUTPUT -p tcp -m multiport --dport 9102,9106,9115,10012,11443,15692,17500,20263,20371 -j REDIRECT --to-port 0
-iptables -t nat -A OUTPUT -p tcp -m multiport --dport 20000:20096 -j REDIRECT --to-port 0
-exit
