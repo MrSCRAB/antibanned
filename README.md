@@ -11,4 +11,4 @@ git clone https://github.com/vikayy/antibanned
 
 cd antibanned
 
-bash antibanned.sh
+bash antibanned
