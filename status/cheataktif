@@ -1,8 +1,0 @@
-merah=`echo -e "\e[31;1m"`
-ungu=`echo -e "\e[35;1m"`
-putih=`echo -e " \e[37;1m"`
-echo ""
-echo $putih"===>$merah ANTIBANNED AKTIF$putih<==="
-echo ""
-read -p "$ungu""Tekan [Enter] Untuk Kembali$putih"
-exit
