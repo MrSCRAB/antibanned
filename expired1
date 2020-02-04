@@ -4,7 +4,7 @@ date=`date +%d%m%y`
 while :
 do
 clear
-lif [ $date = 120220 ]
+if [ $date = 120220 ]
 then
 echo ""
 echo ""
