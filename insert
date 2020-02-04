@@ -1,0 +1,66 @@
+#!/system/bin/sh
+
+brand=`getprop ro.product.vendor.brand`
+device=`getprop ro.product.vendor.device`
+model=`getprop ro.product.vendor.model`
+android=`getprop ro.vendor.build.version.release`
+tanggal=`date +%d`
+bulan=`date +%B`
+tahun=`date +%Y`
+while :
+do
+clear
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "Merek Perangkat : $brand"
+echo "Kode Perangkat : $device"
+echo "Tipe Perangkat : $model"
+echo "Versi Android : $android"
+echo "Tanggal : $tanggal $bulan $tahun"
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "UNTUK MENDAPATKAN KEY, KONTAK ADMIN RGRNS YT"
+echo "Ketik [exit] untuk keluar"
+echo ""
+read -p "Masukkan KEY : " key
+if [ $key = 48022 ]
+then
+bash expired0
+exit 0
+elif [ $key = 46059 ]
+then
+bash expired1
+exit 0
+elif [ $key = 47368 ]
+then
+bash expired2
+exit 0
+elif [ $key = exit ]
+then
+clear
+login
+exit 0
+else
+echo ""
+read -p "KEY TIDAK TERDAFTAR"
+fi
+done

@@ -1,0 +1,45 @@
+#!/system/bin/sh
+
+date=`date +%d%m%y`
+while :
+do
+clear
+if [ $date = 040220 ]
+then
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "                   KEY SUDAH EXPIRED"
+echo "     HUBUNGI ADMIN RGRNS YT UNTUK MEMBELI KEY BARU"
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+exit 0
+else
+bash menu
+exit 0
+fi
+done
