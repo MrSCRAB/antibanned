@@ -4,7 +4,7 @@ date=`date +%d%m%y`
 while :
 do
 clear
-if [ $date = 040220 ]
+if [ $date = 080220 ]
 then
 echo ""
 echo ""
